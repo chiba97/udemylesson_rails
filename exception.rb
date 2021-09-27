@@ -3,7 +3,7 @@ i = gets.to_i
 
 begin
   puts 10 / i
-  puts "begin end"
+  puts "begin's end"
 rescue => ex
   puts "Error"
   puts ex.message
