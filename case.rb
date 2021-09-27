@@ -9,4 +9,14 @@
 #   puts "not faund"
 # end
 
-stone = 
+stone = "peridot"
+case stone
+when "ruby"
+  puts "july"
+when "peridot"
+  puts "august"
+when "sapphire"
+  puts "september"
+else
+  puts "not faund"
+end
